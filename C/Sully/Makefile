@@ -26,7 +26,6 @@ clean:
 
 fclean: clean
 	rm -f $(NAME)
-	rm a.out
 	rm Sully_*
 
 re: fclean all
